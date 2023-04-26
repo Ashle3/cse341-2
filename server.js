@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
+const test = require('./controllers/test');
 
-app.get('/', (req,res) => {
-  res.send("General Kenobi");
-});
+app.get('/', test.helloRoute);
+
+app.get('/general', test.kenobiRoute);
 
 const port = 3000;
 
