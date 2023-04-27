@@ -8,3 +8,17 @@ GET http://localhost:8080/contacts/6449b58fcc59a54eca155b95
 
 ###
 GET http://localhost:8080/contacts/6449b5e9cc59a54eca155b96
+
+
+
+###Render
+GET https://cse341-2-bjwy.onrender.com/contacts
+
+###
+GET https://cse341-2-bjwy.onrender.com/contacts/6449b4dacc59a54eca155b94
+
+###
+GET https://cse341-2-bjwy.onrender.com/contacts/6449b58fcc59a54eca155b95
+
+###
+GET https://cse341-2-bjwy.onrender.com/contacts/6449b5e9cc59a54eca155b96
