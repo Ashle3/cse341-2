@@ -9,6 +9,31 @@ GET http://localhost:8080/contacts/6449b58fcc59a54eca155b95
 ###
 GET http://localhost:8080/contacts/6449b5e9cc59a54eca155b96
 
+###CREATE local
+POST http://localhost:8080/contacts 
+
+{
+    "firstname": "Test",
+    "lastname": "Name",
+    "email": "testname@email.com",
+    "favoriteColor": "Orange",
+    "birthday": "01/01/01"
+}
+
+###PUT local
+PUT http://localhost/8080/contacts/6449b5e9cc59a54eca155b96 
+
+{
+    "firstname": "Lisa",
+    "lastname": "Armstrong",
+    "email": "larmstrong@email.com",
+    "favoriteColor": "Aqua",
+    "birthday": "04/28/90"
+}
+
+###DELETE local
+DELETE http://localhost/8080/contacts/644c4a384da26626e2eba178 
+
 
 
 ###Render
@@ -22,3 +47,4 @@ GET https://cse341-2-bjwy.onrender.com/contacts/6449b58fcc59a54eca155b95
 
 ###
 GET https://cse341-2-bjwy.onrender.com/contacts/6449b5e9cc59a54eca155b96
+
